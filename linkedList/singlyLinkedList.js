@@ -16,7 +16,6 @@ class LinkedList {
     while (currentNode !== null && currentNode.el !== val) {
       currentNode = currentNode.next
     }
-    console.log(currentNode)
     return currentNode === null ? -1 : currentNode
   }
   // 根据索引查找节点
@@ -27,7 +26,6 @@ class LinkedList {
       currentNode = currentNode.next
       pos++
     }
-    console.log(currentNode)
     return currentNode === null ? -1 : currentNode
   }
   // 查找前一个值
@@ -36,7 +34,6 @@ class LinkedList {
     while (currentNode.next !== null && currentNode.next.el !== val) {
       currentNode = currentNode.next
     }
-    console.log(currentNode)
     if (currentNode.next === null) {
       return -1
     }
@@ -76,10 +73,12 @@ class LinkedList {
   // 显示链表数据
   display() {
     let currentNode = this.head.next
+    let str = ''
     while (currentNode !== null) {
-      console.log(currentNode.el)
+      str = `${str}${!str ? '' : ', '}${currentNode.el}`
       currentNode = currentNode.next
     }
+    console.log(str)
   }
 }
 
