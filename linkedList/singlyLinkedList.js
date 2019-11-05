@@ -83,9 +83,4 @@ class LinkedList {
   }
 }
 
-const LList = new LinkedList()
-LList.append('f')
-LList.append('head')
-LList.append('t')
-LList.insert('sdsd', 'head')
-LList.display()
+exports = module.exports = LinkedList
