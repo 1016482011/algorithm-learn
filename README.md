@@ -27,3 +27,4 @@
 
 - [冒泡排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/bubbleSort.js)。属于原地排序，属于稳定排序,时间复杂度 O(n^2)
 - [插入排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/insertionSort.js)。属于原地排序，属于稳定排序,时间复杂度 O(n^2)
+- [选择排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/selectionSort.js)。属于原地排序，属于不稳定排序,时间复杂度 O(n^2)
