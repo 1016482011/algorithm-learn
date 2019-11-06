@@ -5,10 +5,11 @@ const LList = new LinkedList()
 LList.append('l')
 LList.append('e')
 LList.append('v')
-LList.append('e')
+LList.append('v')
 LList.append('l')
 LList.display()
 
+// TODO 边界条件未做判断
 // 慢指针节点
 let sNode = LList.findByIndex(0)
 // 快指针节点
