@@ -13,4 +13,8 @@
 
 ### 栈
 
-- [栈](https://github.com/1016482011/algorithm-learn/blob/master/stack/stackBasedOnLinkedList.js)。
+- [链式栈](https://github.com/1016482011/algorithm-learn/blob/master/stack/stackBasedOnLinkedList.js)。
+
+### 队列
+
+- [链式队列](https://github.com/1016482011/algorithm-learn/blob/master/queue/queueBasedOnLinkedList.js)
