@@ -22,3 +22,7 @@
 ### 递归
 
 - [假如这里有 n 个台阶，每次你可以跨 1 个台阶或者 2 个台阶，请问走这 n 个台阶有多少种走法？](https://github.com/1016482011/algorithm-learn/blob/master/recursion/step.js)
+
+### 排序
+
+- [冒泡排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/bubbleSort.js)。属于原地排序，属于稳定排序,时间复杂度 O(n^2)
