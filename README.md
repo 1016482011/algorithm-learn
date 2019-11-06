@@ -18,3 +18,7 @@
 ### 队列
 
 - [链式队列](https://github.com/1016482011/algorithm-learn/blob/master/queue/queueBasedOnLinkedList.js)
+
+### 递归
+
+- [假如这里有 n 个台阶，每次你可以跨 1 个台阶或者 2 个台阶，请问走这 n 个台阶有多少种走法？](https://github.com/1016482011/algorithm-learn/blob/master/recursion/step.js)
