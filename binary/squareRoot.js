@@ -1,5 +1,6 @@
 // 求一个数的平方根，精确到小数点后 6 位
 function squareRoot(n) {
+  if (n <= 0) return
   let low = 0,
     high = n,
     mid
