@@ -34,3 +34,4 @@
 适合大规模的数据排序
 
 - [归并排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/mergeSort.js)。非原地排序，稳定排序，时间复杂度 O(nlogn)，空间复杂度 O(n)
+- [快速排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/quickSort.js)。原地排序，非稳定排序，时间复杂度 O(nlogn)，最坏情况 O(n^2)
