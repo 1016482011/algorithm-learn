@@ -1,7 +1,7 @@
 // 冒泡排序
 function bubbleSort(arr) {
   const len = arr.length
-  if (len <= 1) return
+  if (len <= 1) return arr
   for (let i = 0; i < len; i++) {
     // 提前结束标识
     let flag = true

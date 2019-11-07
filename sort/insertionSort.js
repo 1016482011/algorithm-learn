@@ -1,7 +1,7 @@
 // 插入排序
 function insertionSort(arr) {
   const len = arr.length
-  if (len <= 1) return
+  if (len <= 1) return arr
   for (let i = 1; i < len; i++) {
     const value = arr[i]
     let j = i - 1

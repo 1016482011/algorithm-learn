@@ -25,6 +25,12 @@
 
 ### 排序
 
-- [冒泡排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/bubbleSort.js)。属于原地排序，属于稳定排序,时间复杂度 O(n^2)
-- [插入排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/insertionSort.js)。属于原地排序，属于稳定排序,时间复杂度 O(n^2)
-- [选择排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/selectionSort.js)。属于原地排序，属于不稳定排序,时间复杂度 O(n^2)
+适合小规模数据的排序
+
+- [冒泡排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/bubbleSort.js)。原地排序，稳定排序，时间复杂度 O(n^2)
+- [插入排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/insertionSort.js)。原地排序，稳定排序，时间复杂度 O(n^2)
+- [选择排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/selectionSort.js)。原地排序，不稳定排序，时间复杂度 O(n^2)
+
+适合大规模的数据排序
+
+- [归并排序](https://github.com/1016482011/algorithm-learn/blob/master/sort/mergeSort.js)。非原地排序，稳定排序，时间复杂度 O(nlogn)，空间复杂度 O(n)
