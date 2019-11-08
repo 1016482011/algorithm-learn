@@ -44,3 +44,11 @@
 
 - [简单有序数组二分查找](https://github.com/1016482011/algorithm-learn/blob/master/binary/bsearch.js)。
 - [求一个数的平方根，精确到小数点后 6 位](https://github.com/1016482011/algorithm-learn/blob/master/binary/squareRoot.js)。
+
+### 二叉树
+
+[前中后序遍历](https://github.com/1016482011/algorithm-learn/blob/master/tree/traversalTree.js)
+
+- 前序遍历是指，对于树中的任意节点来说，先打印这个节点，然后再打印它的左子树，最后打印它的右子树。
+- 中序遍历是指，对于树中的任意节点来说，先打印它的左子树，然后再打印它本身，最后打印它的右子树。
+- 后序遍历是指，对于树中的任意节点来说，先打印它的左子树，然后再打印它的右子树，最后打印这个节点本身。
