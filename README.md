@@ -2,8 +2,6 @@
 
 算法学习
 
-根据[课程中的案例](https://time.geekbang.org/column/intro/126)的思路，自己用 js 实现一遍。
-
 ## 案例
 
 ### 单链
@@ -51,7 +49,7 @@
 
 ### 二叉树
 
-[前中后序遍历](https://github.com/1016482011/algorithm-learn/blob/master/tree/traversalTree.js)
+[前、中、后序遍历](https://github.com/1016482011/algorithm-learn/blob/master/tree/traversalTree.js)
 
 - 前序遍历是指，对于树中的任意节点来说，先打印这个节点，然后再打印它的左子树，最后打印它的右子树。
 - 中序遍历是指，对于树中的任意节点来说，先打印它的左子树，然后再打印它本身，最后打印它的右子树。
