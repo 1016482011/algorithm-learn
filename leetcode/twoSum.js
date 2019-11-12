@@ -1,7 +1,12 @@
 /**
+ * https://leetcode-cn.com/problems/two-sum/
+ */
+
+/**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
+ * 自己实现版本
  */
 var twoSum = function(nums, target) {
   for (let i = 0; i < nums.length; i++) {
@@ -17,6 +22,7 @@ var twoSum = function(nums, target) {
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
+ * 看解答后版本
  */
 var twoSum1 = function(nums, target) {
   let map = new Map()
