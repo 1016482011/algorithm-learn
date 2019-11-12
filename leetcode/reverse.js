@@ -25,7 +25,7 @@ var reverse = function(x) {
  */
 var reverse = function(x) {
   let r = 0
-  while (x != 0) {
+  while (x !== 0) {
     const p = x % 10
     x = parseInt(x / 10)
     if (r > 214748364 || (r === 214748364 && p > 7)) return 0
