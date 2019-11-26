@@ -2,6 +2,7 @@
  * https://leetcode-cn.com/problems/sqrtx/
  * @param {number} x
  * @return {number}
+ * 初版
  */
 var mySqrt = function(n) {
   if (n === 0) return 0;
@@ -29,6 +30,7 @@ var mySqrt = function(n) {
 /**
  * @param {number} x
  * @return {number}
+ * 优化
  */
 var mySqrt = function(x) {
   if (x == 1 || x == 0) {
