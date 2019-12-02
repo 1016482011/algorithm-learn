@@ -13,9 +13,10 @@
 var maxDepth = function(root) {
   if (root === null) return 0;
   let arr = [root],
-    h = 0;
+    h = 0,
+    temp = [];
   while (arr.length > 0) {
-    let temp = [];
+    temp = [];
     for (let i = 0; i < arr.length; i++) {
       if (arr[i] && arr[i].left !== null) temp.push(arr[i].left);
       if (arr[i] && arr[i].right !== null) temp.push(arr[i].right);
